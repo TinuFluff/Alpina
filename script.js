@@ -17,7 +17,7 @@ const nations = [
         name: 'Deutsches Reich',
         leader: 'TinuFluff',
         description: 'Germany is tired of being classified as no longer being one of the world’s superpowers. Join today to reform the German Empire!',
-        discordId: ['1096151908718223470', '538807855608889355'],
+        discordId: ['1096151908718223470', '708751281241718838'],
         discordServer: 'https://discord.gg/8MXGBZYEwR'
     },
     {
@@ -32,8 +32,8 @@ const nations = [
         banner: 'flags/poland.png',
         name: 'Rzeczpospolita Polska',
         leader: 'TSHA',
-        description: 'A proud and historic nation.',
-        discordId: ['873926139729575947'],
+        description: 'Poland, a beautiful nation with rich history, culture and great people. Many have tried to conquer and assimilate our lands, but we never gave up our fight for freedom. Now we stand stronger than ever, ready to reclaim the lands of the commonwealth and unify the people of eastern Europe.',
+        discordId: ['873926139729575947', '1073134044000305182'],
         discordServer: null
     },
     {
@@ -41,7 +41,7 @@ const nations = [
         name: 'Decepticon Imperium',
         leader: 'Lord Megatron',
         description: 'The Decepticons are a faction of Cybertronians who formed on their homeworld, Cybertron.',
-        discordId: ['1246274226135105588', '1251959531563389130', '1279173407996641301',],
+        discordId: ['1246274226135105588', '1251959531563389130', '1279173407996641301', '1119601380525604985','747081582073872507'],
         discordServer: 'https://discord.gg/uypu6crByG'
     },
     {
@@ -49,7 +49,7 @@ const nations = [
         name: 'Australia',
         leader: 'Days',
         description: 'A Commonwealth built with industrial and cutting edge technological advancements',
-        discordId: ['259858084896309249', '1012654522964914246', '640046510075019265', '421477383711752204'],
+        discordId: ['259858084896309249', '1012654522964914246', '640046510075019265', '421477383711752204', '290984902873317376', '883018138004897874'],
         discordServer: 'https://discord.gg/ur6N86xn8r'
     },
     {
@@ -75,8 +75,15 @@ const nations = [
         description: 'remnants of the pre-War United States government, they believe themselves the rightful inheritors of America. Obsessed with purity and technology, they seek to "cleanse" the wasteland of mutation, often with extreme prejudice',
         discordId: ['500506841936035841'],
         discordServer: null
+    },
+    {
+        banner: 'flags/italy.png',
+        name: 'Italy',
+        leader: 'Ace',
+        description: 'Sophisticated and welcoming nation',
+        discordId: ['492940817661689856', '766917874249105449'],
+        discordServer: null
     }
-
 ];
 
 const nationContainer = document.getElementById('nation-container');
